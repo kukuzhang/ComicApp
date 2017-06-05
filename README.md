@@ -10,7 +10,7 @@
 - react-static-container: <a href="https://github.com/reactjs/react-static-container">reactjs/react-static-container</a>
 - react-native-viewpager: <a href="https://github.com/race604/react-native-viewpager">race604/react-native-viewpager</a>
 - react-native-scrollable-tab-view: <a href="https://github.com/skv-headless/react-native-scrollable-tab-view">skv-headless/react-native-scrollable-tab-view</a>
-- react-native-image-picker: <a href="https://github.com/marcshilling/react-native-image-picker">marcshilling/react-native-image-picker</a>
+- react-native-image-picker: <a href="https://github.com/react-community/react-native-image-picker">react-community/react-native-image-picker</a>
 
 
 
