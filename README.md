@@ -2,6 +2,14 @@
 <a href="screenshot/1.png"><img src="screenshot/1.png" width="33%"/></a><a href="screenshot/2.png"><img src="screenshot/2.png" width="33%"/><a/>
 <a href="screenshot/3.png"><img src="screenshot/3.png" width="33%"/><a/><a href="screenshot/4.png"><img src="screenshot/4.png" width="33%"/><a/><a href="screenshot/5.png"><img src="screenshot/5.png" width="33%"/><a/>
 <a href="screenshot/6.png"><img src="screenshot/6.png" width="33%"/><a/>
+
+# use
+- git clone https://github.com/ztind/ComicApp.git 
+- cd ComicApp
+- npm install
+- npm start
+- react-native run-android (or) react-native run-ios
+
 # use library
 - redux: <a href="https://github.com/reactjs/redux">reactjs/redux</a>
 - redux-thunk: <a href="https://github.com/gaearon/redux-thunk">gaearon/redux-thunk</a>
