@@ -4,7 +4,7 @@
 <a href="screenshot/6.png"><img src="screenshot/6.png" width="33%"/><a/>
 # use library
 - redux: <a href="https://github.com/reactjs/redux">reactjs/redux</a>
-- redux-thunk: <a href="https://github.com/gaearon/redux-thunk">gaearon/redux-thunk/redux</a>
+- redux-thunk: <a href="https://github.com/gaearon/redux-thunk">gaearon/redux-thunk</a>
 - react-redux: <a href="https://github.com/reactjs/react-redux">reactjs/react-redux</a>
 - react-navigation: <a href="https://reactnavigation.org/docs/intro/">react-navigation</a>
 - react-static-container: <a href="https://github.com/reactjs/react-static-container">reactjs/react-static-container</a>
