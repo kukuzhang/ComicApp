@@ -1,4 +1,4 @@
-# screenshort 
+# screenshot 
 <a href="screenshot/1.png"><img src="screenshot/1.png" width="33%"/></a><a href="screenshot/2.png"><img src="screenshot/2.png" width="33%"/><a/>
 <a href="screenshot/3.png"><img src="screenshot/3.png" width="33%"/><a/><a href="screenshot/4.png"><img src="screenshot/4.png" width="33%"/><a/><a href="screenshot/5.png"><img src="screenshot/5.png" width="33%"/><a/>
 <a href="screenshot/6.png"><img src="screenshot/6.png" width="33%"/><a/>
