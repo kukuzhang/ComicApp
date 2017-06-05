@@ -1,0 +1,16 @@
+项目里用到的第三方库：
+1.redux架构相关库：redux redux-thunk react-redux
+2.react-navigation: rn 0.44版本后的新导航库，提供3个导航组件
+npm install --save react-navigation
+3.react-static-container ：但某组件的属性不需要改变或不刷新时使用此组件来包裹某组件。进行性能优化
+npm install react-static-container --save
+4.react-native-viewpager 跨平台的viewpager
+npm install react-native-viewpager --save
+5. react-native-scrollable-tab-view 页卡滑动组件
+npm install react-native-scrollable-tab-view --save
+
+注意： export default AAA 无需对象解构赋值
+       export let AAA 里要拿到 AAA 就必须对象解构赋值
+6.react-native-image-picker 拍照、相册选取图片
+npm install react-native-image-picker@latest --save
+react-native link
