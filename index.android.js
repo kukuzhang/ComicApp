@@ -1,5 +1,5 @@
 import {
   AppRegistry,
 } from 'react-native';
-import Root from './app/root';
-AppRegistry.registerComponent('ComicApp', () => Root);
+import AppView from './app/components/SplashView.js';
+AppRegistry.registerComponent('ComicApp', () => AppView);
