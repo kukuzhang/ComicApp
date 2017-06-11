@@ -32,7 +32,7 @@ class SplashView extends Component{
         return contentView;
     }
     componentDidMount(){
-        //2s后进行页面切换
+        //3s后进行页面切换
         setTimeout(()=>{
            this.setState({
                isShow:true
