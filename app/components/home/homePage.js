@@ -10,7 +10,9 @@ import {
     Button,Image,
     TouchableHighlight,
     ListView,
-    InteractionManager
+    InteractionManager,
+    BackAndroid,
+    ToastAndroid
     } from 'react-native';
 import StaticContainer from 'react-static-container';
 
@@ -120,12 +122,31 @@ class HomePage extends Component{
     _vpItemClick = (url)=>{
         alert(url);
     }
+
     //请求网络获取数据
     componentDidMount(){
         //性能优化1
         InteractionManager.runAfterInteractions(
             ()=>{  this.props.requestNet(BOOK_URL,params,true) }
         );
+        BackAndroid.addEventListener('androidBack', this._customAlertHandleBack.bind(this));
+    }
+
+    //组件卸载
+    componentWillUnmount(){
+        BackAndroid.removeEventListener('androidBack', this._customAlertHandleBack.bind(this));
+    }
+
+    _customAlertHandleBack(){
+        if(this.props.navigation.state.routeName === "homePage"){
+            //2s内按back退出
+            if (this.lastBackPressed && this.lastBackPressed + 2000 >= Date.now()) {
+                return false;
+            }
+            this.lastBackPressed = Date.now();
+            ToastAndroid.show('再按一次退出应用',ToastAndroid.SHORT);
+            return true;
+        }
     }
 }
 export default HomePage = connect(
