@@ -151,8 +151,11 @@ const styles=StyleSheet.create(
         },
 
         photo:{
-            width:45,
-            height:45
+            width:60,
+            height:60,
+            borderRadius:30,
+            borderWidth:2,
+            borderColor:'white'
         },
         touchItem:{
             flex:1,

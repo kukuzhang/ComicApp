@@ -83,6 +83,7 @@ class ChapterPage extends Component{
             ()=>{this.props.requestNet(CHAPTER_URL,{comicName:this.props.navigation.state.params.comicName},true)}
         );
     }
+   
 }
 const styles=StyleSheet.create(
     {
