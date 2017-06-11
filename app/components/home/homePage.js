@@ -94,7 +94,7 @@ class HomePage extends Component{
                     <ViewPager
                         style={{flex:1}}
                         dataSource={this.state.vpdataSource}
-                        renderPage={this._vpItemRender}
+                        renderPage={this._vpItemRender.bind(this)}
                         autoPlay={true}
                         isLoop={true}
                         />
@@ -107,7 +107,7 @@ class HomePage extends Component{
         return (
             <TouchableHighlight
                 style={{flex:1}}
-                onPress={this._vpItemClick}
+                onPress={()=>this._vpItemClick(url)}
                 underlayColor='red'
                 >
                 <Image
@@ -117,8 +117,8 @@ class HomePage extends Component{
             </TouchableHighlight>
         );
     }
-    _vpItemClick = ()=>{
-        alert('click');
+    _vpItemClick = (url)=>{
+        alert(url);
     }
     //请求网络获取数据
     componentDidMount(){
